@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeNavigation"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:menuCategory="secondary"
+            android:title="Home" />
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:menuCategory="secondary"
+            android:title="Your Cart" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:menuCategory="secondary"
+            android:title="Log out" />
+    </group>
+</menu>
